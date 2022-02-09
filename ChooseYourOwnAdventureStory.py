@@ -1,6 +1,5 @@
 #Probably going to be the process I use from now on. 
 #I am enjoying this, it is coming together 
-from tkinter import N
 
 
 def funNewProgram():
@@ -11,7 +10,11 @@ def funNewProgram():
         "Okay, might as well fill you in on what you have missed. ")
     print("Some type of backstory... blah blah blah")
     print("First question\n"
-          "This is also where the options are laid out")
+          "This is also where the options are laid out\n"
+          "a)...\n"
+          "b)...\n"
+          "c)...\n"
+          "d")
     firstChoice=str(input("What option will you choose?: a, b, c, d?")) 
     if firstChoice in ['option1', '1','option_1', 'first', 'first option', 'a']:
         print("So you chose this option...")
