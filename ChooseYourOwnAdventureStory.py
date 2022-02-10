@@ -15,9 +15,16 @@ def ChooseYourOwnAdventureStory():
         "I am unsure of how you have escaped this tragedy so far, but I fear that you will be soon thrusted into this civil war. No one comes out of these sorts of things unscathed, and especially those who look as innocent as you.\n"
         "by the way...", end=" ")
     birthPlace=str(input("Where are you from?"))
+    birthPlaceRacialName=(birthPlace+(str("ian")))
+    algoraeaRacialName=(str("Algoraean"))#The Entirety of the continent, those who reside are considered this, but bigger city-states are this OR their city populous
+    osorjRacialName=(str("The Osorj")) #Big Eastern Coastal City, trade empire, etc. 
+    saphkGatesCityState=(str("The Saphks"))#Huge southern coast trade empire. A city state that deals in black market deals, slave trade, weapons deals, etc. 
+    
+
     print("What! I don't believe you! How can you possibly be from", birthPlace,"?!\n"
     "It has been almost 200 years since someone has laid eyes on someone from", birthPlace,"\n"
-    )
+    "It was said that through the beginning years of the civil war that the mages of", birthPlace,"were wiped out by the Orcs that were enslaved by the kings men\n"
+    "I... I can't believe that I.. me.. an", algoraeaRacialName, "would be the first person since the beginning of the civil war to see an",birthPlaceRacialName)
     print("Now, that you are up to snuff,\n")
     toContinue=str(input("Are you ready to continue? Yes or no?"))
     if toContinue in ['y', 'yes', 'Yes']:
@@ -71,8 +78,8 @@ def ChooseYourOwnAdventureStory():
             "If you don't shape up, I dont know how we are going to deal with the rest of this adventure!\n"
             "I'm not even sure you would live to see tomorrow if it were not for me.\n"
             "Regardless, we've got to go, I don't want to stay out here much longer.")
-    else:
-        for toContinue in range [1]:
-            break
-    
+    #else:
+        #for toContinue in range [1]:
+            #break
+
 ChooseYourOwnAdventureStory()
