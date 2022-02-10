@@ -10,11 +10,14 @@ def ChooseYourOwnAdventureStory():
     print("So your",userName,"...\n"
         "Okay, might as well fill you in on what missed. It seems that you have missed quite a lot, not sure how... but you did. Basically, the entire land of Algoraea has been thrusted into a civil war!\n"
         "However, this isn't just some civil war that can be culled through diplomatic means, no, this can only be calmed through the complete decimation of all those who 'oppose(d)' the old king.\n" 
-        "The proud old king, Yovlosh, in a fit of rage and pure delusion, declared that any subject who has ancestral blood ties to dwarves, elves, and anything inbetween\n"
+        "The proud old king, Yovlosh, in a fit of rage and pure delusion, declared that any subject who has ancestral blood ties to dwarves, elves, and anything of like.\n"
         #Yovlosh is pronounced like YO-veL-aw-Sch, old king whom has extreme race prejudice and is the entire founder of the civil war 
-        "are to be expunged for their tainted blood."
+        "are to be expunged for their tainted blood. As to be expected, those who were loyal to the king obeyed his rule, but even those who were soon to be ostricized and murdered for just existing\n"
+        "were starting to fall in line with the decree, simply out of fear and hope that if they were to submit to a lesser life of slavehood, woodland and mountain living, and through the extreme process of being sterilized through magic\n"
+        "I am unsure of how you have escaped this tragedy so far, but I fear that you will be soon thrusted into this civil war. No one comes out of these sorts of things unscathed, and especially those who look as pure as you.\n"
+        ""
     
-        "Place holder line" )
+        )
     toContinue=str(input("Are you ready to continue? Yes or no?"))
     if toContinue in ['y', 'yes', 'Yes']:
         print("First question\n"
