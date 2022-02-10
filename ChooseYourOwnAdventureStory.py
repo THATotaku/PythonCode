@@ -1,10 +1,5 @@
 #Probably going to be the process I use from now on. 
 #I am enjoying this. Let's make sure that this is somewhat finished and in good place for when I want to run it and possibly give it up for downloading :).
-
-
-from tkinter import N
-
-
 def ChooseYourOwnAdventureStory():
     print("Welcome and thanks for reading and playing! This is my first project so I know it can be crude and even might not be fun to play, but who cares!\n"
         "Let's get to the actual game now :)\n"
