@@ -2,6 +2,9 @@
 #I am enjoying this. Let's make sure that this is somewhat finished and in good place for when I want to run it and possibly give it up for downloading :).
 
 
+from tkinter import N
+
+
 def ChooseYourOwnAdventureStory():
     print("Welcome and thanks for reading and playing! This is my first project so I know it can be crude and even might not be fun to play, but who cares!\n"
         "Let's get to the actual game now :)\n"
@@ -14,12 +17,16 @@ def ChooseYourOwnAdventureStory():
         #Yovlosh is pronounced like YO-veL-aw-Sch, old king whom has extreme race prejudice and is the entire founder of the civil war 
         "are to be expunged for their tainted blood. As to be expected, those who were loyal to the king obeyed his rule, but even those who were soon to be ostricized and murdered for just existing\n"
         "were starting to fall in line with the decree, simply out of fear and hope that if they were to submit to a lesser life of slavehood, woodland and mountain living, and through the extreme process of being sterilized through magic\n"
-        "I am unsure of how you have escaped this tragedy so far, but I fear that you will be soon thrusted into this civil war. No one comes out of these sorts of things unscathed, and especially those who look as pure as you.\n"
-        ""
-    
-        )
+        "I am unsure of how you have escaped this tragedy so far, but I fear that you will be soon thrusted into this civil war. No one comes out of these sorts of things unscathed, and especially those who look as innocent as you.\n"
+        "by the way...", end=" ")
+    birthPlace=str(input("Where are you from?"))
+    print("What! I don't believe you! How can you possibly be from", birthPlace,"?!\n"
+    "It has been almost 200 years since someone has laid eyes on someone from", birthPlace,"\n"
+    )
+    print("Now, that you are up to snuff,\n")
     toContinue=str(input("Are you ready to continue? Yes or no?"))
     if toContinue in ['y', 'yes', 'Yes']:
+        print("Ah good, now we can actually get goin', my feet started to hurt from just standin' around")
         print("First question\n"
           "This is also where the options are laid out\n"
           "a)...\n"
