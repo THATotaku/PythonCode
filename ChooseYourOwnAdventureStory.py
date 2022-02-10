@@ -3,24 +3,24 @@
 def ChooseYourOwnAdventureStory():
     def characterCustomizaton(): 
         print("Here we are going to create your character. Dress them up as you like, how you like, etc. Keep in mind the target is to be creative but keep it realistic within fantasy")
-        characterAge=eval(input("What is the age of your character?:"))
-        race=str(input("What type of Race do you want your character to be?:"))
-        eyeColorRight=str(input("Right Eye Color: "))
-        eyeColorLeft=str(input("Left Eye Color: "))
+        characterAge=float(input("What is the age of your character?: "))
+        race=str(input("What is the race of your character?: "))
+        eyeColorRight=str(input("Right eye color: "))
+        eyeColorLeft=str(input("Left eye color: "))
         skinTone=str(input("Skin tone: "))
         hairColor=str(input("Hair Color: "))
         hairColorHighlight=str(input("Any highlights in the hair?: "))
         hairTexture=str(input("What is the texture of the hair?: "))
         hairStyle=str(input("What type of hair style do you want your character to have?: "))
-        bodyLength=str(input("Is your character short? medium length? or tall?: "))
-        bustSize=str(input("For your character: What type of bust do you have?: "))
+        bodyLength=str(input("How tall is your character?: "))
+        bustSize=str(input("What type of bust does your character have?: "))
         muscle=str(input("Is your character muscled? Burly? Skrawny? Toned? Or write your own!: "))
         smile=str(input("What type of smile does your character have? If any?: "))
-        teeth=str(input("What hardships has the mouth of your character been through?: "))
-        specificTraits:str(input("Name some specific traits you would like your character to have? (Ex. Tough skin, past full of trauma, horny, studious, etc."))
-        specificTraitLimit=eval(input())
-        for specificTraitLimit in range (3):
-            characterTraitLimit=str(input("Please input the 5 specific traits you would like your character to have (Keep in mind you can only have 3)"))
+        specificTraits=str(input("Name some specific traits you would like your character to have? (Ex. Tough skin, past full of trauma, horny, studious, etc."))
+        specificTraitLimit=3
+        print("Please input the 3 specific traits you would like your character to have (Keep in mind you can only have 3): ")
+        for i in range (specificTraitLimit):
+            specificTraits=str(input())
 
 
         
