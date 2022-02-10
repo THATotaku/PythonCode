@@ -1,6 +1,7 @@
 #Probably going to be the process I use from now on. 
 #I am enjoying this. Let's make sure that this is somewhat finished and in good place for when I want to run it and possibly give it up for downloading :).
 def ChooseYourOwnAdventureStory():
+
     def characterCustomization(): 
         print("Here we are going to create your character. Dress them up as you like, how you like, etc. Keep in mind the target is to be creative but keep it realistic within fantasy")
         characterAge=eval(input("What is the age of your character?:"))
@@ -21,13 +22,13 @@ def ChooseYourOwnAdventureStory():
         for specificTraitLimit in range (3):
             specificTraits=str(input("Please input the 5 specific traits you would like your character to have (Keep in mind you can only have 3)"))
         print("Hm, it appears you have:", specificTraits,"for your traits... I don't know of anyone with those specific traits. I guess there is a first time for everything.")
-        characterCustomization()
+    characterCustomization()
 
-print("Welcome and thanks for reading and playing! This is my first project so I know it can be crude and even might not be fun to play, but who cares!\n"
+    print("Welcome and thanks for reading and playing! This is my first project so I know it can be crude and even might not be fun to play, but who cares!\n"
         "Let's get to the actual game now :)\n"
         "To begin the journey please write your name!")
-userName=str(input("What is your name?"))
-print("So your",userName,"...\n"
+    userName=str(input("What is your name?"))
+    print("So your",userName,"...\n"
         "Okay, might as well fill you in on what missed. It seems that you have missed quite a lot, not sure how... but you did. Basically, the entire land of Algoraea has been thrusted into a civil war!\n"
         "However, this isn't just some civil war that can be culled through diplomatic means, no, this can only be calmed through the complete decimation of all those who 'oppose(d)' the old king.\n" 
         "The proud old king, Yovlosh, in a fit of rage and pure delusion, declared that any subject who has ancestral blood ties to dwarves, elves, and anything of like.\n"
@@ -36,22 +37,22 @@ print("So your",userName,"...\n"
         "were starting to fall in line with the decree, simply out of fear and hope that if they were to submit to a lesser life of slavehood, woodland and mountain living, and through the extreme process of being sterilized through magic\n"
         "I am unsure of how you have escaped this tragedy so far, but I fear that you will be soon thrusted into this civil war. No one comes out of these sorts of things unscathed, and especially those who look as innocent as you.\n"
         "by the way...", end=" ")
-birthPlace=str(input("Where are you from?"))
-birthPlaceRacialName=(birthPlace+(str("ian")))
-algoraeaRacialName=(str("Algoraean"))#The Entirety of the continent, those who reside are considered this, but bigger city-states are this OR their city populous
-osorjRacialName=(str("The Osorj")) #Big Eastern Coastal City, trade empire, etc. 
-saphkGatesCityState=(str("The Saphks"))#Huge southern coast trade empire. A city state that deals in black market deals, slave trade, weapons deals, etc. 
+    birthPlace=str(input("Where are you from?"))
+    birthPlaceRacialName=(birthPlace+(str("ian")))
+    algoraeaRacialName=(str("Algoraean"))#The Entirety of the continent, those who reside are considered this, but bigger city-states are this OR their city populous
+    osorjRacialName=(str("The Osorj")) #Big Eastern Coastal City, trade empire, etc. 
+    saphkGatesCityState=(str("The Saphks"))#Huge southern coast trade empire. A city state that deals in black market deals, slave trade, weapons deals, etc. 
     
 
-print("What! I don't believe you! How can you possibly be from", birthPlace,"?!\n"
+    print("What! I don't believe you! How can you possibly be from", birthPlace,"?!\n"
     "It's been almost 200 years since someone has laid eyes on someone from", birthPlace,"\n"
     "It was said that through the beginning years of the civil war that the mages of", birthPlace,"were wiped out by the Orcs that were enslaved by the kings men\n"
     "I... I can't believe that I.. me.. an", algoraeaRacialName, "would be the first person since the beginning of the civil war to see an",birthPlaceRacialName)
-print("Now, that you are up to snuff,\n")
-toContinue=str(input("Are you ready to continue? Yes or no?"))
-if toContinue in ['y', 'yes', 'Yes']:
-    print("Ah good, now we can actually get goin', my feet started to hurt from just standin' around")
-    print("First question\n"
+    print("Now, that you are up to snuff,\n")
+    toContinue=str(input("Are you ready to continue? Yes or no?"))
+    if toContinue in ['y', 'yes', 'Yes']:
+        print("Ah good, now we can actually get goin', my feet started to hurt from just standin' around")
+        print("First question\n"
           "This is also where the options are laid out\n"
           "a)...\n"
           "b)...\n"
