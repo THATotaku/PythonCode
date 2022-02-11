@@ -7,15 +7,12 @@ def Character():
     eyeColorLeft=str(input("Left eye color: "))
     skinTone=str(input("Skin tone: "))
     hairColor=str(input("Hair Color: "))
-    hairColorHighlight=str(input("Any highlights in the hair?: ")) 
-    hairTexture=str(input("What is the texture of the hair?: "))
-    hairStyle=str(input("What type of hair style do you want your character to have?: "))
+    hairColorHighlight=str(input("Any highlights in the hair?: "))
     bodyLength=str(input("How tall is your character?: "))
     bustSize=str(input("What type of bust does your character have?: "))
     muscle=str(input("Is your character muscled? Burly? Skrawny? Toned? Or write your own!: "))
-    smile=str(input("What type of smile does your character have? If any?: "))
     print("List a few specific traits you would like your character to have? (Ex. Tough skin, past full of trauma, horny, studious, etc.")
-    specificTraitLimit=3
+    specificTraitLimit=1
     print("Please choose wisely, as your character can only be graced with 3 specific traits.")
     for i in range (specificTraitLimit):
         characterTraitsA=str(input())
