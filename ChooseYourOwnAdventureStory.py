@@ -11,17 +11,16 @@ def ChooseYourOwnAdventureStory():
     hairColor=str(input("Hair Color: "))
     hairColorHighlight=str(input("Any highlights in the hair?: ")) 
     hairTexture=str(input("What is the texture of the hair?: "))
-    hairStyle=str(input("What type of hair style do you want your character to have?: "))
-    bodyLength=str(input("How tall is your character?: "))
-    bustSize=str(input("What type of bust does your character have?: "))
+    bodyLength=eval(input("How tall is your character?: "))
     muscle=str(input("Is your character muscled? Burly? Skrawny? Toned? Or write your own!: "))
-    smile=str(input("What type of smile does your character have? If any?: "))
     print("List a few specific traits you would like your character to have? (Ex. Tough skin, past full of trauma, horny, studious, etc.")
-    specificTraitLimit=3
+    specificTraitLimit=1
     print("Please choose wisely, as your character can only be graced with 3 specific traits.")
     for i in range (specificTraitLimit):
-        characterTraits=str(input())
-    print("Hm, it appears you have:", characterTraits,"for your traits... I don't know of anyone with those specific traits. I guess there is a first time for everything.")
+        characterTraitsA=str(input())
+        characterTraitsB=str(input())
+        characterTraitsC=str(input())
+    print("Hm, it appears you have:",characterTraitsA,",",characterTraitsB,", and",characterTraitsC,",","for your traits... I don't know of anyone with those specific traits. I guess there is a first time for everything.")
     characterCreationContinuation= str(input("Are you ready to continue?"))
     if characterCreationContinuation in ['y', "yes", "Yes"]:
         print("Great! Enjoy the adventure!")
