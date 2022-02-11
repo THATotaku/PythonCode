@@ -1,28 +1,25 @@
 #Probably going to be the process I use from now on. 
 #I am enjoying this. Let's make sure that this is somewhat finished and in good place for when I want to run it and possibly give it up for downloading :).
 def ChooseYourOwnAdventureStory():
-
-    def characterCustomization(): 
-        print("Here we are going to create your character. Dress them up as you like, how you like, etc. Keep in mind the target is to be creative but keep it realistic within fantasy")
-        characterAge=eval(input("What is the age of your character?:"))
-        race=str(input("What race is your character?:"))
-        eyeColorRight=str(input("Right eye color: "))
-        eyeColorLeft=str(input("Left eye color: "))
-        skinTone=str(input("Skin tone: "))
-        hairColor=str(input("Hair Color: "))
-        hairColorHighlight=str(input("Any highlights in the hair?: ")) 
-        hairTexture=str(input("What is the texture of the hair?: "))
-        hairStyle=str(input("What type of hair style do you want your character to have?: "))
-        bodyLength=str(input("How tall is your character?: "))
-        bustSize=str(input("What type of bust does your character have?: "))
-        muscle=str(input("Is your character muscled? Burly? Skrawny? Toned? Or write your own!: "))
-        smile=str(input("What type of smile does your character have? If any?: "))
-        inPutSpecificTraits=str(input("Name some specific traits you would like your character to have? (Ex. Tough skin, past full of trauma, horny, studious, etc."))
-        specificTraitLimit=eval(input())
-        for specificTraitLimit in range (3):
-            specificTraits=str(input("Please input the 5 specific traits you would like your character to have (Keep in mind you can only have 3)"))
-        print("Hm, it appears you have:", specificTraits,"for your traits... I don't know of anyone with those specific traits. I guess there is a first time for everything.")
-    characterCustomization()
+    print("Here we are going to create your character. Dress them up as you like, how you like, etc. Keep in mind the target is to be creative but keep it realistic within fantasy")
+    characterAge=eval(input("What is the age of your character?:"))
+    race=str(input("What race is your character?:"))
+    eyeColorRight=str(input("Right eye color: "))
+    eyeColorLeft=str(input("Left eye color: "))
+    skinTone=str(input("Skin tone: "))
+    hairColor=str(input("Hair Color: "))
+    hairColorHighlight=str(input("Any highlights in the hair?: ")) 
+    hairTexture=str(input("What is the texture of the hair?: "))
+    hairStyle=str(input("What type of hair style do you want your character to have?: "))
+    bodyLength=str(input("How tall is your character?: "))
+    bustSize=str(input("What type of bust does your character have?: "))
+    muscle=str(input("Is your character muscled? Burly? Skrawny? Toned? Or write your own!: "))
+    smile=str(input("What type of smile does your character have? If any?: "))
+    specificTraits=str(input("List a few specific traits you would like your character to have? (Ex. Tough skin, past full of trauma, horny, studious, etc."))
+    specificTraitLimit=3
+    for i in range (specificTraitLimit):
+        characterTraits=str(input("Please input the 3 specific traits you would like your character to have (Keep in mind you can only have 3)"))
+    print("Hm, it appears you have:", characterTraits,"for your traits... I don't know of anyone with those specific traits. I guess there is a first time for everything.")
 
     print("Welcome and thanks for reading and playing! This is my first project so I know it can be crude and even might not be fun to play, but who cares!\n"
         "Let's get to the actual game now :)\n"
