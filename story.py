@@ -33,17 +33,17 @@ def Story():
             "b)...\n"
             "c)...\n"
             "d")
-    firstChoice=str(input("What option will you choose?: a, b, c, d?")) 
-    if firstChoice in ['option1', '1','option_1', 'first', 'first option', 'a']:
-        print("So you chose this option...")
-        print("It seems you have mistaken me for a dummy")
-    if firstChoice in ['option2', '2','option_2', 'second', 'second option', 'b']:
-        print("A wise choice, indeed")
-    if firstChoice in ['option3', '3','option_3', 'third', 'third option', 'c']:
-        print("Hmmm, an interesting choice... You may prove to be useful after all...")
-    if firstChoice in ['option4', '4','option_4', 'fourth', 'fourth option', 'd']:
-        print("I think you will want to reconsider this...")
-        print("Do you wish to choose a different option?")
+        firstChoice=str(input("What option will you choose?: a, b, c, d?"))
+        if firstChoice in ['option1', '1','option_1', 'first', 'first option', 'a']:
+            print("So you chose this option...")
+            print("It seems you have mistaken me for a dummy")
+        if firstChoice in ['option2', '2','option_2', 'second', 'second option', 'b']:
+            print("A wise choice, indeed")
+        if firstChoice in ['option3', '3','option_3', 'third', 'third option', 'c']:
+            print("Hmmm, an interesting choice... You may prove to be useful after all...")
+        if firstChoice in ['option4', '4','option_4', 'fourth', 'fourth option', 'd']:
+            print("I think you will want to reconsider this...")
+            print("Do you wish to choose a different option?")
         redoDecision=str(input("Yes or No?"))
         if redoDecision in ['yes', 'Yes', 'y']:
             redoChoice=str(input("What option will you choose?: a, b, c, d?")) 
