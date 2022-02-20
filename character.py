@@ -1,6 +1,7 @@
 def Character():
     characterCreation=1
     print("Here we are going to create your character. Dress them up as you like, how you like, etc. Keep in mind the target is to be creative but keep it realistic within fantasy")
+    userName=str(input("What is the name of your character?:"))
     characterAge=eval(input("What is the age of your character?:"))
     race=str(input("What race is your character?:"))
     eyeColorRight=str(input("Right eye color: "))
