@@ -20,8 +20,8 @@ def Character():
         characterTraitsC=str(input())
     print("Hm, it appears you have:",characterTraitsA,",",characterTraitsB,", and",characterTraitsC,",","for your traits... I don't know of anyone with those specific traits. I guess there is a first time for everything.")
     characterCreationContinuation= str(input("Are you ready to continue?"))
-    if characterCreationContinuation in ['y', "yes", "Yes"]:
-        print("Great! Enjoy the adventure!")
+    if characterCreationContinuation.lower() in ['y', "yes", "sure", "ok", "okay", "ye", "yep"]:
+        print("Great! Enjoy the adventure!\n")
     else:
         for i in range (characterCreation):
             Character()
